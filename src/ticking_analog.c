@@ -36,6 +36,7 @@ static void hands_update_proc(Layer *layer, GContext *ctx) {
   // second hand
   graphics_context_set_stroke_color(ctx, GColorWhite);
   graphics_draw_line(ctx, second_hand, center);
+  // emittting 2ms vibe or "tick sound"
   vibes_enqueue_custom_pattern(pat);
 
   // minute/hour hand

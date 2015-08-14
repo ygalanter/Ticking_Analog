@@ -104,7 +104,7 @@ static const GPathInfo HOUR_HAND_POINTS = {
 };
 
 
-// Vibe pattern: ON for 200ms, OFF for 100ms, ON for 400ms:
+// Vibe pattern: short 2ms vibe to imitate tick
 static const uint32_t const segments[] = { 2 };
 VibePattern pat = {
   .durations = segments,
