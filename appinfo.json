@@ -1,0 +1,23 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "yuri@galanter.net",
+    "longName": "Ticking Analog",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Ticking Analog",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "4f18b537-366e-49a6-9c2b-0a60369f61ab",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
